@@ -3,51 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Assistant Project Devices</title>
+    <title>Light Sync with Spotify</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <h1>Light Sync with Spotify API</h1>
+        <p>Using AppDaemon in Home Assistant to sync lights with music on Spotify.</p>
+    </header>
 
-    <div class="container">
-        <h1>433MHz Smart Home Project Devices</h1>
-
-        <!-- 433MHz RF Transmitter & Receiver -->
-        <div class="device">
-            <h2>433MHz RF Transmitter & Receiver Modules</h2>
-            <p>These modules communicate with 433MHz RF-controlled devices like sockets and LED lights in my home automation setup.</p>
+    <section class="gallery">
+        <div class="image-slot">
+            <img src="ls1.png" alt="1">
         </div>
-
-        <!-- ESP32 -->
-        <div class="device">
-            <h2>ESP32 Microcontroller</h2>
-            <p>The ESP32 is used to handle wireless communication and automation tasks, acting as a bridge between the devices and Home Assistant.</p>
+        <div class="image-slot">
+            <img src="ls2.png" alt="2">
         </div>
-
-        <!-- LED Light -->
-        <div class="device">
-            <h2>433MHz RF-Controlled LED Light</h2>
-            <p>This LED light is controlled via 433MHz signals, integrated into my smart home for remote lighting control.</p>
+        <div class="image-slot">
+            <img src="ls3.png" alt="3">
         </div>
+    </section>
 
-        <!-- Raspberry Pi 4 -->
-        <div class="device">
-            <h2>Raspberry Pi 4</h2>
-            <p>The Raspberry Pi 4 runs Home Assistant, managing and automating all the connected devices.</p>
-        </div>
-
-        <!-- AC to DC Adapter -->
-        <div class="device">
-            <h2>AC to DC Adapter for Raspberry Pi</h2>
-            <p>This adapter powers the Raspberry Pi, ensuring it runs smoothly 24/7 as the heart of the Home Assistant system.</p>
-        </div>
-
-        <!-- SD Card -->
-        <div class="device">
-            <h2>32GB SD Card for Raspberry Pi</h2>
-            <p>The SD card stores the Home Assistant software and other data, providing reliable storage for the setup.</p>
-        </div>
-
-    </div>
-
+    <section class="description">
+        <h2>About the Project</h2>
+        <p>This project uses AppDaemon in Home Assistant to connect to the Spotify API, enabling lights to sync with the music's beat and mood.</p>
+        <p>The integration allows real-time lighting effects that match the energy of your favorite songs, enhancing the atmosphere of your space.</p>
+    </section>
 </body>
 </html>
